@@ -9,6 +9,7 @@
   <main class="grid-x align-middle" style="min-height: 100%">
     <div class="cell text-center">
       {% for image in entry.heroImages.orderBy('RAND()').all() %}
+      Test
         <img src="{{images.domain}}{{ image.filename }}?h=500&fit=crop&ch=dpr&cs=tinysrgb&dpr=2&format=compress}}" alt="{{ image.title }}">
       {% endfor %}
     </div>
