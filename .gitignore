@@ -37,10 +37,3 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 prepros-6.config
-composer.lock
-*.lock
-
-# ASSETS (added by fortrabbit/craft-copy)
-/web/assets/*
-
-/web/cpresources/*

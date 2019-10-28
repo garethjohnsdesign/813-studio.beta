@@ -33,14 +33,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"/composer.lock": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/composer.lock",
-		"oF": 0
-		},
 	"/config/app.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -234,7 +226,7 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/node_modules/lightGallery/dist/js/lightgallery.js": {
+	"/node_modules/lightgallery/dist/js/lightgallery.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
