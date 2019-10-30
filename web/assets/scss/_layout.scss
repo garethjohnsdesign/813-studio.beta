@@ -361,3 +361,31 @@ main {
     @include padding(1,1,1,1);
   }
 }
+
+// 7. Images
+// ---------
+
+.image--1-1 {
+  @include aspect-ratio (1, 1);
+  background-size: cover; 
+  background-position: 50%;
+}
+
+.image--5-7 {
+  @include aspect-ratio (5, 7);
+  background-size: cover; 
+  background-position: 50%;
+  background-color: $black;
+}
+
+.image--7-5 {
+  @include aspect-ratio (7, 5);
+  background-size: cover; 
+  background-position: 50%;
+}
+
+.image--16-9 {
+  @include aspect-ratio (16, 9);
+  background-size: cover; 
+  background-position: 50%;
+}

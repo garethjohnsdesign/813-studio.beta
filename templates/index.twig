@@ -4,18 +4,80 @@
 
 {% block main %}
 
-<!-- Main -->
-<div class="cell auto" id="main" data-aos="fade-in" data-aos-delay="100">
-  <main class="grid-x align-middle" style="min-height: 100%">
-    <div class="cell text-center">
-      {% for image in entry.heroImages.orderBy('RAND()').all() %}
-      Test4
-        <img src="{{images.domain}}{{ image.filename }}?h=500&fit=crop&ch=dpr&cs=tinysrgb&dpr=2&format=compress}}" alt="{{ image.title }}">
-      {% endfor %}
-    </div>
-  </main>
-</div>
-<!-- Main -->
+<!-- Works -->
+{% set works = craft.entries
+.section('work')
+.all() %}
 
+<div class="grid-container hide-for-large">
+  <div class="grid-x grid-padding-x grid-padding-y">
+    {% for work in works %}
+      {% include "_includes/blocks/excerpt" %}
+    {% endfor %}
+  </div>
+</div>
+<!-- End Works -->
+
+
+<div class="swiper-container show-for-large">
+
+  <div class="swiper-button-prev-test flex-container align-center-middle"></div>
+  <div class="swiper-button-next-test flex-container align-center-middle"></div>
+
+
+  <div class="swiper-wrapper">
+    {% for work in works %}
+    {% set image = work.featuredImage.one() %}
+      <div class="swiper-slide small-10 medium-7 padding-horizontal-2 cell text-center">
+   
+            <div class="margin-bottom-2 slide align-middle" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}">
+
+              <a href="{{ work.url }}">      
+
+              <div class="content grid-y align-center show-for-large">
+                <div class="shrink cell padding-1">
+
+                  <div class="grid-x align-center">
+                    <div class="small-10 medium-10 large-8 cell">
+                      <div class="text-lowercase">Client — {{ work.client }}</div>
+                      {% if work.subject %}<div class="text-lowercase">Subject — {{ work.subject }}</div>{% endif %}
+                      <div class="margin-top-2">{{ work.copy }}</div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              {% if work.video %}
+              <div class="content-type grid-y align-center show-for-medium">
+                <div class="shrink cell padding-1">
+
+                  <div class="grid-x align-center">
+                    <div class="small-10 medium-10 large-8 cell">
+                      <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              {% endif %}
+
+
+
+              
+              </a>
+
+            </div>
+            
+            <div class="meta padding-bottom-2">
+            <div class="text-lowercase">{{ work.client }} {% if work.project %}— {{ work.project }}{% endif %}</div>
+            {% if work.subject %}<div class="text-lowercase">{{ work.subject }}</div>{% endif %}
+            </div>
+
+        </div>
+    {% endfor %}
+  </div>
+
+</div>
 
 {% endblock %}

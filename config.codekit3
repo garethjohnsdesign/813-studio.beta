@@ -234,7 +234,7 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/node_modules/lightgallery/dist/js/lightgallery.js": {
+	"/node_modules/lightGallery/dist/js/lightgallery.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
@@ -316,28 +316,12 @@
 		"oAP": "/templates/503.twig",
 		"oF": 0
 		},
-	"/templates/_includes/blocks/age-gate-simple.twig": {
+	"/templates/_includes/blocks/excerpt.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/templates/_includes/blocks/age-gate-simple.twig",
-		"oF": 0
-		},
-	"/templates/_includes/blocks/age-gate.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/_includes/blocks/age-gate.twig",
-		"oF": 0
-		},
-	"/templates/_includes/blocks/copyright.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/_includes/blocks/copyright.twig",
+		"oAP": "/templates/_includes/blocks/excerpt.twig",
 		"oF": 0
 		},
 	"/templates/_includes/blocks/footer.twig": {
@@ -354,22 +338,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/_includes/blocks/form.twig",
-		"oF": 0
-		},
-	"/templates/_includes/blocks/links.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/_includes/blocks/links.twig",
-		"oF": 0
-		},
-	"/templates/_includes/blocks/map.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/_includes/blocks/map.twig",
 		"oF": 0
 		},
 	"/templates/_includes/global/analytics.twig": {
@@ -700,6 +668,22 @@
 		"oAP": "/templates/_includes/images/full/full/interchange-img-small-12-medium-12.twig",
 		"oF": 0
 		},
+	"/templates/_includes/reveal/navigation.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/_includes/reveal/navigation.twig",
+		"oF": 0
+		},
+	"/templates/_includes/reveal/newsletter.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/_includes/reveal/newsletter.twig",
+		"oF": 0
+		},
 	"/templates/_layouts/base.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -714,6 +698,30 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/_layouts/site.twig",
+		"oF": 0
+		},
+	"/templates/about/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/about/index.twig",
+		"oF": 0
+		},
+	"/templates/contact/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/contact/index.twig",
+		"oF": 0
+		},
+	"/templates/culture/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/culture/index.twig",
 		"oF": 0
 		},
 	"/templates/error.twig": {
@@ -748,12 +756,28 @@
 		"oAP": "/templates/page/index.twig",
 		"oF": 0
 		},
-	"/templates/photos/index.twig": {
+	"/templates/subscribe/index.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/templates/photos/index.twig",
+		"oAP": "/templates/subscribe/index.twig",
+		"oF": 0
+		},
+	"/templates/work/entry.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/work/entry.twig",
+		"oF": 0
+		},
+	"/templates/work/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/work/index.twig",
 		"oF": 0
 		},
 	"/vendor": {
@@ -2410,7 +2434,7 @@
 		"oAP": "/web/assets/css/app.css",
 		"oF": 2,
 		"oS": 3,
-		"uL": 0
+		"uL": 1
 		},
 	"/web/assets/scss/hamburgers/_base.scss": {
 		"aP": 1,
