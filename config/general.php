@@ -45,9 +45,7 @@ return [
         'siteUrl'             => getenv('SITE_URL') ?: '@web',
 
         // Set the environmental variables
-        'environmentVariables' => array(
-            'staticAssetsVersion' => '03',
-        ),
+        'staticAssetsVersion' => 8,
         
     ],
 
@@ -59,9 +57,7 @@ return [
         'allowUpdates' => true,
         'enableTemplateCaching' => false,
         // Set the environmental variables
-        'environmentVariables' => array(
-            'staticAssetsVersion' => time(),
-        ),
+        'staticAssetsVersion' => time(),
     ],
 
     // Staging environment settings
@@ -71,14 +67,11 @@ return [
         'enableTemplateCaching' => true,
         'allowUpdates' => false,
         // Set the environmental variables
-        'environmentVariables' => array(
-            'staticAssetsVersion' => time(),
-        ),
+         'staticAssetsVersion' => time(),
     ],
 
     // Production environment settings
     'production' => [
-
         'devMode' => false,
         'enableTemplateCaching' => true,
         'allowUpdates' => false,
