@@ -5,9 +5,7 @@
 {% block main %}
 
 <!-- Works -->
-{% set works = craft.entries
-.section('work')
-.all() %}
+{% set works = entry.featuredWork.all() %}
 
 <div class="grid-container hide-for-large">
   <div class="grid-x grid-padding-x grid-padding-y">
