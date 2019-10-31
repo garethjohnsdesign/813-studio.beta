@@ -26,10 +26,16 @@ $(document).foundation();
 // 3. Loading
 // ----------
 
+
+
+$(document).ready(function() {
+  if (!Cookies.get('loading')) {
+
+
 $(function() {
 
 
-    $(".loader").removeClass("hide");
+$(".loader").removeClass("hide");
 
 var singleNumber = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
 
@@ -112,9 +118,15 @@ setInterval(function() {
 
     setTimeout(function(){
      $(".loader").addClass("loaded");
+     Cookies.set('loading', 'true');
     }, 5000); 
 
 });
+
+  }
+});
+
+
 
 
 // 4. Animate on Scroll
