@@ -168,6 +168,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/node_modules/foundation-sites/dist/js/foundation.esm.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/foundation-sites/dist/js/foundation.esm-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/node_modules/jquery/dist/jquery.js": {
 		"bF": 0,
 		"ft": 64,
@@ -241,6 +252,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/ssr-window/dist/ssr-window.esm-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/node_modules/swiper/js/swiper.esm.bundle.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/js/swiper.esm.bundle-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -380,6 +402,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/_includes/images/contained/16-9/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/templates/_includes/images/contained/16-9/interchange-img-small-12-medium-4-bw.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/_includes/images/contained/16-9/interchange-img-small-12-medium-4-bw.twig",
 		"oF": 0
 		},
 	"/templates/_includes/images/contained/16-9/interchange-img-small-12-medium-4.twig": {
